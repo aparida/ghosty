@@ -2,8 +2,7 @@
  * Main JS file for Casper behaviours
  */
 
-
-/* Buster: correct local directory links to not include "index.html" */
+ /* Buster: correct local directory links to not include "index.html" */
 (function($){
     var absUrlPattern = new RegExp('^(?:[a-z]+:)?//', 'i');
     $(document).ready(function(){
@@ -17,7 +16,6 @@
         });
     });
 }(jQuery));
-
 
 /*globals jQuery, document */
 (function ($) {
